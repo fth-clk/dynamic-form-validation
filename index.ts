@@ -1,6 +1,6 @@
 import './style.css';
 import { FormGroup } from './FormGroup';
-import { validators } from './validators';
+import { validators } from './validators'; 
 console.clear();
 
 const formElement = document.forms['registerForm'] as HTMLFormElement;
