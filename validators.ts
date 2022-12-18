@@ -10,7 +10,7 @@ export const validators = {
   checkPasswordsMatchWith(anotherInput: HTMLInputElement): (value: string) => boolean {
     return function(value) {
       return value === anotherInput.value;
-    }
+    } 
   },
   checkLength(len: number):(value: string) => boolean {
     return function (value: string): boolean {
