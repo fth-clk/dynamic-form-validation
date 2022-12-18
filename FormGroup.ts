@@ -31,7 +31,7 @@ export class FormGroup {
       this.valid = Object.values(this.formControls).every(v => v.state.valid);
       this.setButtonStatus();
     })
-  }
+  } 
 
   showError(input: HTMLInputElement, controller: Control) {
     const valid = this.checkError(controller);
